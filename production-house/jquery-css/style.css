@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+		
+body
+		{
+			margin:0 auto;
+			padding:0;
+			height:100%;
+		
+		}
+		
+
+
+/*--Banner--*/						
+.bannerHolder
+				{
+					
+					width:100%;
+					height:100%;
+					margin:auto;
+					z-index:99999;
+					position:fixed;
+					
+					
+					
+					
+				}
+				
+				
+ul.rslides {
+ 
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  position:fixed;
+	
+  }
+
+ul.rslides li {
+  -webkit-backface-visibility: hidden;
+  position:fixed;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+ul.rslides li:first-child {
+  position: fixed;
+  display: block;
+  float: left;
+  }
+
+ul.rslides img {
+  display: block;
+  height: auto;
+  margin:auto;
+ 
+  }				
+/*--Banner End--*/
+
+						
+	
+				

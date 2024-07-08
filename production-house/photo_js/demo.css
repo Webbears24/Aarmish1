@@ -1,0 +1,106 @@
+body,h1,h2,h3,p,quote,small,form,input,ul,li,ol,label,fieldset{
+	/* A simple page reset */
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	/* Styling the body */
+	color:white;
+	font-size:13px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#gallery{
+	/* The pics container */
+	width:90%;
+	height:580px;
+	position:relative;
+	left:10%;
+}
+
+.pic, .pic a{
+	/* Each picture and the hyperlink inside it */
+	width:100px;
+	height:100px;
+	overflow:hidden;
+}
+
+.pic{
+	/* Styles specific to the pic class */
+	position:absolute;
+	border:5px solid #EEEEEE;
+	border-bottom:18px solid #eeeeee;
+	
+	/* CSS3 Box Shadow */
+	-moz-box-shadow:2px 2px 3px #333333;
+	-webkit-box-shadow:2px 2px 3px #333333;
+	box-shadow:2px 2px 3px #333333;
+}
+
+.pic a{
+	/* Specific styles for the hyperlinks */
+	text-indent:-999px;
+	display:block;
+	/* Setting display to block enables advanced styling for links */
+}
+
+
+
+
+
+
+/* General styles for the demo page */
+
+h1{
+	/* The title of the page */
+	color:white;
+	font-family:"MyRiad Pro",Arial,Helvetica,sans-serif;
+	font-size:38px;
+	font-weight:normal;
+	color:#b76e07;
+}
+
+
+
+
+
+hr{
+	/* The horizontal ruler */
+	
+	
+	color:#BBBBBB;
+	height:1px;
+	margin:30px auto;
+	width:450px;
+}
+
+.clear{
+	/* The clearfix hack */
+	clear:both;
+}
+
+#main{
+	/* The main container */
+	width:880px;
+	float:right;
+	
+}
+
+.video
+
+{
+	
+  	padding:0 0 20px 0;  	
+	
+	margin:auto;
+	height:20px auto;
+}
+
+.video_left
+
+{
+	
+  	padding:350px 0 20px 0;
+	float:left;	
+}

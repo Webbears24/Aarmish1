@@ -1,0 +1,105 @@
+@media screen and (min-width :1199px) and (max-width: 1366px) {
+	
+	
+}
+
+@media screen and (min-width: 992px) and (max-width: 1198px) {
+	
+	
+}
+
+/********Sm-start*******/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	
+	
+}
+
+@media screen and (max-width: 980px) {
+	
+}
+
+@media screen and (max-width: 768px) {
+	
+	
+}
+
+@media screen and (min-width: 480px) and (max-width: 766px) {
+	
+	
+}
+
+/********xs-start********/
+@media screen and (max-width: 768px) {
+	.header-right ul li {
+		border-right:0px;
+	}
+	.hm_abt_right .hm_main_bx {
+		margin-bottom:20px;
+	}
+	.hm_abt_right .hm_main_bx span h5 {
+		padding-left:10px;
+	}
+	.hm-abt-main h1.heading span {
+		font-size: 25px;
+		color: #fe2c54;
+	}
+	.hm-abt-main h1.heading {
+		font-size:25px;
+		line-height:30px;
+		padding-bottom:10px;
+	}
+	.buss_anch a {
+		bottom:0px;
+	}
+	.buss_main_hed {
+		padding-bottom:30px;
+	}
+	.header-nav {
+		padding:0 10px;
+	}
+	.banner_hed h2 {
+		font-size:36px;
+	}
+	.inner_banner {
+		height:200px;
+	}
+	.abt_sec_hed h2,.buss_main_hed h2 {
+		font-size:22px;
+	}
+	.abt_sec_para {
+		padding-bottom:15px;
+	}
+	.inn_abt_lft h3 {
+		font-size:20px;
+	}
+	.inn_abt_lft img {
+		margin:15px 0;
+	}
+	.inn_abt_rht1, .inn_abt_rht3 {
+		margin-bottom:0px;
+	}
+	.contact_section, #branding_sec, #corporate_sec {
+		padding: 60px 0;
+	}
+	.contact {
+		padding-bottom:40px;
+	}
+	.service_bx img {
+		margin-bottom:20px;
+	}
+	
+	
+	
+	
+}
+
+@media screen and (max-width: 360px) {
+
+	
+	
+}
+
+@media screen and (max-width: 320px) {
+	
+	
+}
