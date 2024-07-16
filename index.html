@@ -25,6 +25,8 @@
         <!-- Custom CSS -->
         <link href="css/style.css" rel="stylesheet">
 
+        <link rel="stylesheet" href="style.css">
+
         <!-- Custom Fonts -->
         <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 
@@ -70,76 +72,57 @@
         
         
         <!-- Start Main Body Section -->
-        <div class="mainbody-section text-center">
-            <div class="container">
-                <div class="row">
-                    
-                    <div class="col-md-6">
-					
-                        <div class="menu-item aarmishcolor">
-						<p><b>Real Estate</b></p>
-							<a href="http://www.aarmish.com/ventures/index.html">
-								<!--<i class="fa fa-building"></i>
-								<p>Real Estate</p>-->
-								<img src="images/banner/approved/3.jpg" />
-							</a>
-							
-						</div> 
-						
-						<div class="menu-item aarmishcolor">
-						<p><b>Corporate Lifestyle</b></p>
-							<a href="http://www.aarmish.com/import-export-lifestyle/index.html">
-								<!--<i class="fa fa-suitcase"></i>
-								<p>Import/Export Lifestyle</p>-->
-								<img src="images/banner/approved/2.jpg" />
-							</a>
-							
-						</div>
-						
-                    </div>
-                    
-                    
-                    
-                    <div class="col-md-6">
-                        
-                        <div class="menu-item aarmishcolor">
-						<p><b>Shipping &amp; Logistics</b></p>
-                            <a href="http://www.aarmish.com/integrate/index.html">
-                                <!--<i class="fa fa-plane"></i>
-                                <p>Shipping &amp; Logistics</p>-->
-								<img src="images/banner/approved/1.jpg" />
-                            </a>
-							
-                        </div> 	
-								
-						<div class="menu-item aarmishcolor">
-						<p><b>Production House</b></p>
-                            <a href="http://www.aarmish.com/production-house/index.html">
-                                <!--<i class="fa fa-film"></i>
-                                <p>Production House</p>-->
-								<img src="images/banner/approved/4.jpg" />
-                            </a>
-							
-                        </div>
+      
+<section class="hero-section">
+    <div class="card-grid">
+      <a class="card" href="http://www.aarmish.com/ventures/index.html">
+        <div class="card__background" style="background-image: url(/images/Home-cards/real-estate.jpg)"></div>
+        <div class="card__content">
+          <p class="card__category">Real Estate</p>
+          <h3 class="card__heading">Aarmish Buildcon Infra</h3>
+        </div>
+      </a>
+      <a class="card" href="http://www.aarmish.com/integrate/index.html">
+        <div class="card__background" style="background-image: url(/images/Home-cards/logistics.jpg)"></div>
+        <div class="card__content">
+          <p class="card__category">Shipping & Logistics</p>
+          <h3 class="card__heading">HSMR GLOBAL Inc</h3>
+        </div>
+      </a>
+      <a class="card" href="http://www.aarmish.com/import-export-lifestyle/index.html">
+        <div class="card__background" style="background-image: url(/images/Home-cards/lifestyle-corporate.jpg)"></div>
+        <div class="card__content">
+          <p class="card__category">Corporate Lifestyle</p>
+          <h3 class="card__heading">Neemii Corporation</h3>
+        </div>
+      </li>
+      <a class="card" href="http://www.aarmish.com/production-house/index.html">
+        <div class="card__background" style="background-image: url(/images/Home-cards/production.jpg)"></div>
+        <div class="card__content">
+          <p class="card__category">Production House</p>
+          <h3 class="card__heading">BullMan Media</h3>
+        </div>
+      </a>
+    <div>
+  </section>
 
-                    </div>
-                </div>
-					<p><img src="images/aarmish/aarmish-welcome.png" title="Aarmish Welcome" class="img-responsive" alt="" /></p>
+   <!-- Start Copyright Section -->
+   <div class="copyright text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div>Copyright &copy; 2024 <a href="http://www.aarmish.com/">Aarmish Group</a> Matunga, Mumbai, India. All Rights Reserved.</div>
+                <div>Design By <a href="http://www.webbears.in">WebBears</a></div>
+
             </div>
         </div>
-        <!-- End Main Body Section -->
-	  
-        <!-- Start Copyright Section -->
-        <div class="copyright text-center">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div>Copyright &copy; 2017 <a href="http://www.aarmish.com/">Aarmish Group</a> Matunga, Mumbai, India. All Rights Reserved.</div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    </div>
+</div>
+<!-- End Copyright Section -->
         <!-- End Copyright Section -->
-		
+         <script src="script.js"></script>
+		<!-- Ensure you have included GSAP -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+
     </body>
 </html>

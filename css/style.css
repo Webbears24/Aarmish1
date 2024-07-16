@@ -2,7 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,300);
 /*background: url(../images/background.jpg) no-repeat; background-attachment: fixed; background-size: cover;   background-position: 50% 50%;*/
 
-body {  font-family: 'Open Sans', sans-serif; background-image:url("../images/background/aarmish-background.jpg"); background-repeat:repeat; }
+body {  font-family: 'Open Sans', sans-serif; background-color: white; }
 
 a, a:hover, a:focus, a:active, a.active { outline: 0; }
 
@@ -211,13 +211,11 @@ and (max-width : 1199px) {
 
 
 .copyright {
-    background: rgba( 0, 0, 0, 0.7); 
 	/*background-color: #c88107;*/
-    color: #fff;
+    color: #000000;
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.copyright a{color:#ffffff;}
 
 
 /**** Start Modal Section ****/
